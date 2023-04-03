@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/ayman/IdeaProjects/Errarhiche-ASN2</OriginalElement>
+  <nodes>
+    <node x="30.486356287928118" y="300.9865156934644">NumericLockDoor</node>
+    <node x="-100.87309107640436" y="500.94274745685107">SteelRoom</node>
+    <node x="624.1541768880905" y="322.9961729668902">QuizDoor</node>
+    <node x="695.9541694262325" y="-13.59175313263708">MazeDoor</node>
+    <node x="800.7086317845202" y="526.300492702113">GlassRoom</node>
+    <node x="330.00646377598326" y="302.4300233251138">MazeRoom</node>
+    <node x="203.51825685090841" y="556.9797803908698">BrickRoom</node>
+    <node x="327.9047037124817" y="106.9405423905661">PasswordLockDoor</node>
+    <node x="498.4914462170341" y="562.9170311286784">WoodenRoom</node>
+    <node x="933.9834164316902" y="247.83629489688792">SimpleDoor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SimpleDoor" target="MazeDoor" relationship="GENERALIZATION">
+      <point x="-86.50041643169027" y="22.65970510311206" />
+      <point x="890.654" y="330.496" />
+      <point x="890.654" y="271.0" />
+      <point x="782.454" y="271.0" />
+      <point x="-1.6942623255999933E-4" y="126.99975313263707" />
+    </edge>
+    <edge source="NumericLockDoor" target="MazeDoor" relationship="GENERALIZATION">
+      <point x="-3.562879281275855E-4" y="-59.99951569346439" />
+      <point x="148.486" y="271.0" />
+      <point x="782.454" y="271.0" />
+      <point x="-1.6942623255999933E-4" y="126.99975313263707" />
+    </edge>
+    <edge source="GlassRoom" target="MazeRoom" relationship="GENERALIZATION">
+      <point x="-116.99963178452026" y="6.116507297886983" />
+      <point x="749.991" y="570.417" />
+      <point x="749.991" y="527.0" />
+      <point x="447.006" y="527.0" />
+      <point x="-4.637759832917254E-4" y="93.99997667488623" />
+    </edge>
+    <edge source="PasswordLockDoor" target="MazeDoor" relationship="GENERALIZATION">
+      <point x="2.9628751826749067E-4" y="60.00045760943391" />
+      <point x="460.405" y="271.0" />
+      <point x="782.454" y="271.0" />
+      <point x="-1.6942623255999933E-4" y="126.99975313263707" />
+    </edge>
+    <edge source="SteelRoom" target="MazeRoom" relationship="GENERALIZATION">
+      <point x="117.00009107640437" y="25.537252543148952" />
+      <point x="186.018" y="564.48" />
+      <point x="186.018" y="527.0" />
+      <point x="447.006" y="527.0" />
+      <point x="-4.637759832917254E-4" y="93.99997667488623" />
+    </edge>
+    <edge source="WoodenRoom" target="MazeRoom" relationship="GENERALIZATION">
+      <point x="-4.4621703409575275E-4" y="-38.000031128678415" />
+      <point x="615.491" y="527.0" />
+      <point x="447.006" y="527.0" />
+      <point x="-4.637759832917254E-4" y="93.99997667488623" />
+    </edge>
+    <edge source="BrickRoom" target="MazeRoom" relationship="GENERALIZATION">
+      <point x="-2.568509084426296E-4" y="-37.99978039086977" />
+      <point x="320.518" y="527.0" />
+      <point x="447.006" y="527.0" />
+      <point x="-4.637759832917254E-4" y="93.99997667488623" />
+    </edge>
+    <edge source="QuizDoor" target="MazeDoor" relationship="GENERALIZATION">
+      <point x="-1.7688809055016463E-4" y="-60.000172966890204" />
+      <point x="748.654" y="271.0" />
+      <point x="782.454" y="271.0" />
+      <point x="-1.6942623255999933E-4" y="126.99975313263707" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8452768729641694" showDependencies="false" x="513.0" y="322.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
